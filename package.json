@@ -1,0 +1,32 @@
+{
+  "name": "nodejs-assessment",
+  "version": "1.0.0",
+  "description": "Node.js technical assessment for Nugo backend developer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "nugo",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.8",
+    "mocha": "^10.2.0",
+    "nodemon": "^3.0.1",
+    "supertest": "^6.3.3"
+  },
+  "dependencies": {
+    "chai-http": "^4.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "moment": "^2.29.4",
+    "mysql2": "^3.6.1",
+    "nodemailer": "^6.9.5",
+    "path": "^0.12.7",
+    "sequelize": "^6.33.0",
+    "sinon": "^16.0.0"
+  }
+}
